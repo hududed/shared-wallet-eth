@@ -223,11 +223,18 @@
 		"remappings": []
 	},
 	"sources": {
-		"Users/hud/shared-wallet-eth/SharedWallet.sol": {
-			"keccak256": "0x69d8e9105a9f620b6c8cd2efd80c1d5d51723ac04bd75d32258d9443c3c3c12f",
+		"Users/hud/shared-wallet-eth/Allowance.sol": {
+			"keccak256": "0x41c3ac45f5b6b5eea10922206ebe418fef0d6133b5d5736cc2f5e2603fd6adb1",
 			"urls": [
-				"bzz-raw://94309913f8a87675e17bcd24456604c67af8d88e9d97ccc7e19634559bf13a8f",
-				"dweb:/ipfs/QmfD8QVMu4eqpBZ6hKhzbcoXqF84EeWmxA2MsYHR4MHmWZ"
+				"bzz-raw://fc2e58bb053f7322f12db1e536cfd4601cd9604fa8830505a25b4b9f2f48ecf2",
+				"dweb:/ipfs/QmaWhyjrua5hMStLEWbBBjut9iVAboWK3Xo3dkwqQ2SXBG"
+			]
+		},
+		"Users/hud/shared-wallet-eth/SharedWallet.sol": {
+			"keccak256": "0x7a48846e0caad5a5bd1f060341aae0cf2d098df51a806276f484b153d40f5bd7",
+			"urls": [
+				"bzz-raw://2be18a33a8b0e6e580b824fa0ca00415d8d1fe298c9702d94dc0bfeb8858d698",
+				"dweb:/ipfs/QmYeqU9HUJx6gqNitc7rQq1sd14JCH4SRFVDznnwCCArsJ"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol": {

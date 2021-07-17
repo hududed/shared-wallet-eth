@@ -164,10 +164,10 @@
 	},
 	"sources": {
 		"Users/hud/shared-wallet-eth/SharedWallet.sol": {
-			"keccak256": "0x69d8e9105a9f620b6c8cd2efd80c1d5d51723ac04bd75d32258d9443c3c3c12f",
+			"keccak256": "0x44e7e6fcc054bfcab95b98d32ed1d75097bf69633b19ebc29c73551240a890ab",
 			"urls": [
-				"bzz-raw://94309913f8a87675e17bcd24456604c67af8d88e9d97ccc7e19634559bf13a8f",
-				"dweb:/ipfs/QmfD8QVMu4eqpBZ6hKhzbcoXqF84EeWmxA2MsYHR4MHmWZ"
+				"bzz-raw://5d4cddc4c04b042ee1bebd7aa1e64b2cc80452c44b46f186ded2f0705b4089cd",
+				"dweb:/ipfs/QmRyfLhVucaYxb8oco57YxVM47xs7SD1dHMHiN3Lyt1jW2"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol": {
