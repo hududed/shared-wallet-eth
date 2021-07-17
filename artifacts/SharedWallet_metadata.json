@@ -42,6 +42,44 @@
 					{
 						"indexed": true,
 						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "MoneyReceived",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_beneficiary",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "MoneySent",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
 						"name": "previousOwner",
 						"type": "address"
 					},
@@ -186,10 +224,10 @@
 	},
 	"sources": {
 		"Users/hud/shared-wallet-eth/SharedWallet.sol": {
-			"keccak256": "0xeabf3a73df64c056514bc878e814a8402fa14a89cfc64116c46af772c3a076e6",
+			"keccak256": "0x69d8e9105a9f620b6c8cd2efd80c1d5d51723ac04bd75d32258d9443c3c3c12f",
 			"urls": [
-				"bzz-raw://eb983827e6978b2cf79e6fff5d24ed183c0096ae9fd8d332b25ea3840107ab43",
-				"dweb:/ipfs/QmbmvFAyuwKL6RWwqnLyUNyGaQ6JQRTriAWCgbha79iquN"
+				"bzz-raw://94309913f8a87675e17bcd24456604c67af8d88e9d97ccc7e19634559bf13a8f",
+				"dweb:/ipfs/QmfD8QVMu4eqpBZ6hKhzbcoXqF84EeWmxA2MsYHR4MHmWZ"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol": {
