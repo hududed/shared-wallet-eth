@@ -25,6 +25,43 @@
 				"type": "event"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_who",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "addAllowance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "allowance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "owner",
 				"outputs": [
@@ -118,10 +155,10 @@
 	},
 	"sources": {
 		"Users/hud/shared-wallet-eth/SharedWallet.sol": {
-			"keccak256": "0x7616f4820f7d700e94275b460ae7c45d76331bc4978f5c4bbb72911b7db9c6dc",
+			"keccak256": "0x17880e1ecfa14b073dc50b49918d2573776006b183d5cdad793519f3a160c942",
 			"urls": [
-				"bzz-raw://cfbbce7f4124e27f00aeded273c2c8d71d9ecb885efa727084546746395d24f9",
-				"dweb:/ipfs/QmVFVW3Pfh8scUjtawTu6MsybyfiPgG8gDK4uDnAXaHoBC"
+				"bzz-raw://93212ef6e2b76fc39194bac9aa187b820299435578ede896d481f27b169a2c03",
+				"dweb:/ipfs/Qmev8atEzn3Z5eW9irFFcMqaovL6U2NXi1tWjK6SELLPa1"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol": {

@@ -9,19 +9,18 @@ contract SharedWallet is Ownable {
         return owner() == msg.sender;
     }
     
-    // address public owner;
-    
-    // constructor () {
-    //     owner = msg.sender;
-    // }
-    
-    // modifier onlyOwner() {
-    //     require(msg.sender == owner, "You are not allowed");
-    //     _;
-    // }
-    
-    function withdrawMoney(address payable _to, uint256 _amount) public onlyOwner {
-        // require(owner == msg.sender, "you're not allowed");
+     mapping(address => uint) public allowance;
+
+    function addAllowance(address _who, uint _amount) public onlyOwner {
+        allowance[_who] = _amount;
+    }
+
+    modifier ownerOrAllowed(uint _amount) {
+        require(isOwner() || allowance[msg.sender] >= _amount, "You are not allowed!");
+        _;
+    }
+
+    function withdrawMoney(address payable _to, uint _amount) public ownerOrAllowed(_amount) {
         _to.transfer(_amount);
     }
 
